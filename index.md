@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+My personal blog about software development, teams, agile, leadership and other things interesting to me. Opinions are my own.
