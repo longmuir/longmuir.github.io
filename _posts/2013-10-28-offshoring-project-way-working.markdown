@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Offshoring: A Project or a Way of Working?"
+title:  "OffShore Software Development: A Project or a Way of Working?"
 date:   2013-10-28 20:07:08 -0400
 categories: jekyll update
 published: true

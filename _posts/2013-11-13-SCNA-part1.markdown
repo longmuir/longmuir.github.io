@@ -1,0 +1,73 @@
+---
+layout: post
+title:  "Software Craftsmanship North America 2013 - Part 1"
+date:   2013-11-13 20:07:08 -0400
+categories: jekyll update
+published: false
+---
+
+Last weekend, I attended <img class="alignleft size-medium wp-image-246" alt="Chicago" src="http://www.jamielongmuir.com/wp-content/uploads/2013/11/jellybean_1-300x225.jpg" width="300" height="225" /><a href="http://scna.softwarecraftsmanship.org/">Software Craftsmanship North America (SCNA)</a> 2013 in Chicago.  This was my first time attending a software craftsmanship gathering, and it was exactly what I hoped it would be!  These were some of the industry’s most passionate practitioners gathering to talk about what they do, how they do it, and most importantly – how they can get better at it.  As host Micah Martin said in his introduction, this conference is not about any particular technology or process, but about improving our profession as a whole.  In the software development world, that made it something very unique and refreshing.
+
+<strong>The Crowd</strong>
+
+I wasn’t sure what to expect, but I was pleasantly surprised by how open and down to earth this group was. The participants came from a wide variety of backgrounds, but were almost all hands on developers, who were active participants in their respective communities. Going to the conference solo, it was a pleasure to introduce myself to so many new people and instantly strike up entertaining conversations about code, work, backgrounds – or in some cases, other passions, like skiing. The format of the conference also facilitated this, with evening networking events and frequent breaks to give attendees opportunities to mingle.
+
+<strong>My Impressions</strong>
+
+The rest of this blog post (and part 2) chronicles my highlights from the conference. These are my own personal highlights, and are by no means comprehensive. Please feel free to leave comments - especially if you think I have misinterpreted someone.
+
+<strong>The “Ones Who Know” – Robert C. Martin</strong>
+
+The conference led off with a speech by “Uncle Bob”.  There are few speakers in the industry who are more passionate and entertaining than Bob.  In one sentence, he’ll make you proud to be a developer, and in the next absolutely ashamed!  He started off by talking about the Space Shuttle Challenger disaster – about the engineers who <em>knew</em> there were grave risks launching in such cold weather, but were silenced by their managers to launch the flight for political reasons. The engineers <em>knew</em> better, yet the launch went ahead and we all know what happened. He then began discussing the current fiasco around the <a href="http://en.wikipedia.org/wiki/Healthcare.gov">healthcare.gov</a> website – calling it a ‘challenger sized’ disaster. A very large piece of legislation, passed into law by the US government may be in danger of crashing and burning because of the screw ups of software development professionals. He posed the question – were there people who <em>knew</em>? Should we be embarrassed over it? Those were our guys who did that!
+
+Bob then went on to quote the <a href="http://c2.com/cgi/wiki?DeveloperBillOfRights">developer </a>and <a href="http://c2.com/cgi/wiki?CustomerBillOfRights">customer </a>bills of rights – both of which provide guidelines for the relationship between a professional developer and their customer. A key theme that I took away from Bob’s speech – which aligns with my recent <a title="Software Developers: The Road to Professionalism" href="http://www.jamielongmuir.com/2013/11/09/software-developers-as-professionals-its-a-long-road/">blog post</a>, is that if developers are hired for their special skill and knowledge (ie they are the 'ones who <em>know</em>'), if they are going to consider themselves professionals, then <strong>they must be willing to stand up and do the right thing</strong> - even if it goes against their manager's wishes.
+
+For More of Bob's take on the matter, check out his <a href="http://blog.8thlight.com/uncle-bob/2013/11/12/Healthcare-gov.html">blog post</a>.
+
+<strong>Reflections from a Development Journey - Sarah Gray</strong>
+
+Sara took us on a journey of her development toward craftsmanship. It’s a journey that spanned several languages, practices and levels of maturity as she began to master techniques like <a href="http://en.wikipedia.org/wiki/Test-driven_development">TDD</a>. She made the interesting observation that you can tell a lot about the values of a software language by looking at its community. This led her toward the world of Ruby, which tends to be more focused and supportive of practices like TDD and  refactoring. She made a few other interesting remarks about code and tests:
+<ul>
+	<li>The biggest sign your project code needs improving: you don’t know how to test something!</li>
+	<li>Simply by following good naming practices you can back yourself into good code (big agree!!)<a href="http://www.jamielongmuir.com/wp-content/uploads/2013/11/testcycle.jpg"><img class="size-medium wp-image-259 alignright" alt="testcycle" src="http://www.jamielongmuir.com/wp-content/uploads/2013/11/testcycle-300x131.jpg" width="300" height="131" /></a></li>
+	<li>Given/When/Then syntax of feature test frameworks (e.g. Robot) can be difficult for stakeholders to relate to, but are useful for developers to keep focus on the scope of what they’re doing (avoid going on development tangents)</li>
+	<li>Feeling overwhelmed with work as a developer? Step back… slow down… get back into your test-driven work cycle(pictured)!</li>
+</ul>
+<strong>Craftsman Cannot Live on Stack Overflow and GitHub Alone – Ken Auer</strong>
+
+Ken opened this talk by discussing some of the interviews he’d had with prospective hires where they cited their contributions to sites like Stack Overflow and GitHub. At the same time he notes, much of what is on Stack Overflow and GitHub is nowhere near ship-able software. Large community contributions do not equal software craftsmanship.
+
+Ken reminded us of various software manifestos from over the years – the OO Manifesto, the Patterns Manifesto, Agile Manifesto, Manifesto for not only OO Development, and ‘No More Manifestos'. While the Agile Manifesto has become hugely successful, and been a huge step in the right direction, many teams that have attempted to adopt Agile continue to produce low quality software.
+
+Ken went on discussed the <a href="http://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition">Dreyfus model of skill acquisition</a>, and presented some charts showing how his company perceived these levels for developers. Judging by some of the audience reaction, this was somewhat controversial – in particular the tables that associated numbers of hours spent programming to levels of expertise (e.g. craftsman has &gt; 10,000 hours programming).
+
+Numbers aside, I fully agree with the point that developers need significant time working with experienced peers who know how to deliver successful products. Online communities such as Stack Overflow are useful for developers looking to solve quick problems – such as how to parse a regular expression in Python. They are useless for larger problems like, how to develop a database that can expand overtime to meet the needs of a rapidly growing user base, while continuously providing uninterrupted service. The knowledge of how to build such systems can only come from hands-on experience.
+
+<strong>Novices vs Experts</strong>
+
+Ken’s talk was the first of three to do a de<a href="http://www.jamielongmuir.com/wp-content/uploads/2013/11/dreyfus-model.png"><img class="alignleft size-medium wp-image-263" alt="dreyfus-model" src="http://www.jamielongmuir.com/wp-content/uploads/2013/11/dreyfus-model-300x188.png" width="300" height="188" /></a>ep dive on the subject of the <a href="http://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition">Dreyfus model</a>, and novices vs experts – how they perceive, how they process data and how they make decisions.
+
+Dave Thomas discussed the concept of ‘unknown knowns’ (A title borrowed from Donald Rumsfeld’s <a href="http://en.wikipedia.org/wiki/There_are_known_knowns">famous speech</a>). Dave discussed how experts are able to use hidden ‘tacit’ knowledge to make quick decisions. They are able to process massive amounts of data to make an informed decision, even though they may struggle in explaining their reasoning. He gave a story most developers would be all too familiar with – being asked to generate a massive amount of data (more than could ever be analyzed) for an expert who already had a conclusion determined. The reason? “I just need something to give to management”.
+
+Somehow (Corey Haines I believe), the subject of chicken sexing came up in one of the round tables. <a href="http://tedwordsblog.com/2012/11/16/chicken-sexers-plane-spotters-and-the-elegance-of-tagteaching/">Chicken sexing</a>, the task of identifying the sex of newly born chickens so that they may either be fed for eggs, food or slaughtered is an extremely difficult task requiring significant experience under the watchful eye of an experienced chicken sexer before they are ready to work on their own. Apprentices pick up an individual chick, sort it by sex – and if they are wrong, the experienced chicken sexer will correct them with a quick slap of the wrist. Over a few weeks, the apprentice picks up the tacit knowledge required to do the job with remarkable accuracy.
+
+Brian Marrick gave a similar farm analogy of determining if cows are ‘bright’ or ‘dull’. He explains it far better than I could <a href="http://www.exampler.com/testing-com/writings/tacit-knowledge.html">here.</a>
+
+The running theme for me from all of these discussions was that developers require significant time and practice for them to reach their true potential. The point was also made that this experience must be spent continuous learning from other experts. The phrase
+<blockquote><strong>“10 years of experience can’t be the same year repeated 10 times!”</strong></blockquote>
+was used multiple times.
+
+As an aside, while I fully agree developers need time spent coding with experts to grow, I am also a big believer in the beginner’s mind theory, which Arlo Belshee discussed at length in his paper <a href="http://csis.pace.edu/~grossman/dcs/XR4-PromiscuousPairing.pdf">Promiscuous Pairing</a>.
+
+<strong>Software Craftsmanship Communities - Are You Out There?
+</strong>
+
+Between the official sessions, the organizers of two established Software Craftsmanship groups sat down to chat about local groups. They posed the question what would you hope to get out of a software craftsmanship group? I made the point that while we have several technology user groups (e.g. Ruby groups, Javascript groups, etc), there are very few groups dedicated to the improvement of the software development profession. Some thought that they could find everything they’d need to know about programming online or in books. I guess they missed Ken Auer’s talk on the value of real experienced under experienced developers.
+
+Needless to say, one of my big takeaways from this event is that the software craftsmanship movement is long overdue, yet still in its early days.  It's still a long way from the majority.  As Sandro Mancuso pointed out in his talk, perhaps some of the strong language and sometimes fanatical pushing of particular practices and technologies has turned some people off.
+
+To successfully drive change, you have to be inclusive.  You have to meet people where they are.  You can't insist that everyone who isn't writing Clojure while religiously practising TDD is a dinosaur that can be left behind.  Ironically, it's the larger legacy systems written in languages like C++ where the software craftsmanship movement is needed the most.  I think it'll come - I can already see it in the diversity of the crowd at the conference.  The spread of Scrum and other Agile methods has made the need for skilled software professionals more transparent than ever, and the cost of software failures is becoming too large to ignore.
+
+<strong>Part 2</strong>
+
+In Part 2 of my notes, Carina C Zona makes us think deeply about the connection between computer programming and social sciences, Sandro Mancuso discusses the state of software craftsmanship, and Ron Jeffries and Chet Hendrikson discuss a notable flaw in Scrum as described in the 'book'.
